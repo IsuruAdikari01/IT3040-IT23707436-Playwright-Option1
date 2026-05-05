@@ -1,99 +1,107 @@
-# IT3040-IT23707436-Playwright-Option1
-Project Title
+# IT23707436 – IT3040 Assignment 1
+
+## Project Title
 
 Automated Testing for Singlish to Sinhala Transliteration System
 
-Repository
+## Repository
 
-https://github.com/sasindu2003/IT3040-IT23308534-playwright-option1.git
 
----
 
-Project Structure
+\---
 
-IT3040_Assignment_1/
+## Project Structure
 
-IT23707436_test_automation.py → Playwright automation script
-IT23707436_Test cases.xlsx → Excel file with test cases & results
-IT23707436_requirements.txt → Python dependencies
-IT23707436_README.md → Project documentation
-venv/ (optional) → Virtual environment (not required)
----
+IT3040\_Assignment\_1/
 
-Technologies Used
+* IT23707436\_test\_automation.py           → Playwright automation script
+* IT23707436\_Test cases.xlsx → Excel file with test cases \& results
+* IT23707436\_requirements.txt             → Python dependencies
+* IT23707436\_README.md                    → Project documentation
+* venv/ (optional)             → Virtual environment (not required)
 
-Python
-Playwright (UI Automation)
-OpenPyXL (Excel handling)
----
+\---
 
-How to Run the Project
+## Technologies Used
 
-Open terminal inside project folder
-(Optional) Activate virtual environment
-venv\Scripts\activate
-Install dependencies
-pip install -r requirements.txt
+* Python
+* Playwright (UI Automation)
+* OpenPyXL (Excel handling)
+
+\---
+
+## How to Run the Project
+
+1. Open terminal inside project folder
+2. (Optional) Activate virtual environment  
+venv\\Scripts\\activate
+3. Install dependencies  
+pip install -r requirements.txt  
 playwright install
-Run the automation script
-python test_automation.py --excel "IT - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator"
----
+4. Run the automation script  
+python test\_automation.py --excel "IT - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator"
 
-Output
+\---
 
-Results are automatically written to the Excel file
+## Output
 
-Columns updated:
+* Results are automatically written to the Excel file
+* Columns updated:
 
-Actual output
-Status (PASS / FAIL)
----
+  * Actual output
+  * Status (PASS / FAIL)
 
-Test Case Details
+\---
 
-Total Test Cases: 50+
-Test Type: Negative Testing
-Covered Scenarios:
+## Test Case Details
 
-Mixed language inputs (Singlish + English)
-Spelling variations
-Emojis & symbols
-Real-world scenarios (banking, travel, apps)
-System-related messages (errors, logs)
-Numeric and date inputs
----
+* Total Test Cases: 50+
+* Test Type: Negative Testing
 
-Important Notes
+### Covered Scenarios:
 
-This system uses strict comparison
+* Mixed language inputs (Singlish + English)
+* Spelling variations
+* Emojis \& symbols
+* Real-world scenarios (banking, travel, apps)
+* System-related messages (errors, logs)
+* Numeric and date inputs
 
-Even small differences in Sinhala output (spacing, formatting, spelling) will result in FAIL
+\---
 
-Some failures are expected due to:
+## Important Notes
 
-Transliteration inconsistencies
-Mixed language complexity
-UI timing delays
----
+* This system uses strict comparison
+* Even small differences in Sinhala output (spacing, formatting, spelling) will result in FAIL
+* Some failures are expected due to:
 
-Student Information
+  * Transliteration inconsistencies
+  * Mixed language complexity
+  * UI timing delays
 
-Student ID: IT23707436
-Module: IT3040
-Assignment: Assignment 1 (Option 1)
----
+\---
 
-Final Status
+## Student Information
 
-✔ Automation script working
-✔ Excel-based validation completed
+* Student ID: IT
+* Module: IT3040
+* Assignment: Assignment 1 (Option 1)
+
+\---
+
+## Final Status
+
+✔ Automation script working  
+✔ Excel-based validation completed  
 ✔ Test coverage includes multiple edge cases
 
----
+\---
 
-Submission Notes
+## Submission Notes
 
-Virtual environment (venv) is excluded from submission
-All required files are included
-Project is fully runnable using requirements.txt
----
+* Virtual environment (venv) is excluded from submission
+* All required files are included
+* Project is fully runnable using requirements.txt
+
+\---
+
