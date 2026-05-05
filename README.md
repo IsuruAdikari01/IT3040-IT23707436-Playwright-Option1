@@ -6,6 +6,8 @@ Automated Testing for Singlish to Sinhala Transliteration System
 
 ## Repository
 
+https://github.com/IsuruAdikari01/IT3040-IT23707436-Playwright-Option1.git
+
 
 
 \---
