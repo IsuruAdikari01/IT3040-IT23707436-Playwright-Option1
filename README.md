@@ -85,7 +85,7 @@ python test\_automation.py --excel "IT - Test cases.xlsx" --url "https://www.pix
 
 ## Student Information
 
-* Student ID: IT
+* Student ID: IT23707436
 * Module: IT3040
 * Assignment: Assignment 1 (Option 1)
 
